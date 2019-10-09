@@ -12,7 +12,17 @@
 <body>
 
     <p>Returns the absolute (positive) value of a number</p>
-    <?php  ?>
+    <?php
+
+        echo abs(10);
+        echo "<br>";
+        echo abs(-10);
+        echo "<br>";
+        echo abs(65.3);
+        echo "<br>";
+        echo abs(-65.3);
+
+    ?>
     <p>Converts a number from one number base to another</p>
     <?php  ?>
     <p>Converts a binary number to a decimal number</p>
