@@ -33,6 +33,41 @@
 
 ?>
 
+    <h2>Constants are Global</h2>
+
+    <?php
+
+        define("MIURI", "I am a girl");
+        echo MIURI . " - Outside Function";
+        // create a function
+        function myFunc() {
+            echo MIURI . " - Inside Function";
+        }
+
+        echo "<br>";
+
+        // call the function
+        myFunc();
+
+    ?>
+
+    <h3>Variables</h3>
+
+    <?php
+
+        $x = 10;
+        echo $x . " - Outside Function";
+
+        // create the function
+        function test() {
+            echo $x;
+        }
+
+        // call the function
+        test();
+    ?>
+
+
 
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
