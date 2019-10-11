@@ -11,6 +11,28 @@
 </head>
 <body>
 
+    <?php
+
+        $mobile_brand = "Apple";
+
+        switch ($mobile_brand) {
+            case "Sony":
+                echo "Your mobile brand is Sony";
+                break;
+            case "Samsung":
+                echo "Your mobile brand is Samsung";
+                break;
+            case "Huawei":
+                echo "Your mobile brand is Huawie";
+                break;
+            case "LG":
+                echo "Your mobile brand is LG";
+                break;
+            default:
+                echo "Your mobile brand is not in here";
+        }
+
+    ?>
 
 
 <script src="js/jquery-3.4.1.min.js"></script>
