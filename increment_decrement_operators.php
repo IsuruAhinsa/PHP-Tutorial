@@ -26,9 +26,19 @@
         echo $b; // 21
     ?>
     <h4>Pre-Decrement (--$var) </h4>
-    <?php  ?>
+    <?php
+        $c = 20;
+        echo --$c; // 19  (Decrement $c by one, then returns $c)
+        echo "<br>";
+        echo $c; // 19
+    ?>
     <h4>Post-Decrement ($var--) </h4>
-    <?php  ?>
+    <?php
+        $d = 20;
+        echo $d--; // 20  (Returns $d, then decrement $d by one)
+        echo "<br>";
+        echo $d; // 19
+    ?>
 
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
