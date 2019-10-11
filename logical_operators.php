@@ -11,9 +11,49 @@
 </head>
 <body>
 
-    <h4></h4>
+    <h4>And</h4>
     <?php
+        $x = 100;
+        $y = 50;
 
+        if ($x >= 100 and $y <= 50) {
+            echo "Chamma";
+        }
+    ?>
+
+    <h4>Or</h4>
+    <?php
+        if ($x == 25 or $y == 50) {
+            echo "Disanayaka";
+        }
+    ?>
+
+    <h4>Xor</h4>
+    <?php
+        if ($x == 100 xor $y == 65) { // true if either $x or $y is true, but not both
+            echo "Ahinsa";
+        }
+    ?>
+
+    <h4>&&</h4>
+    <?php
+        if ($x == 100 && $y == 50) {
+            echo "Ahinsa";
+        }
+    ?>
+
+    <h4>||</h4>
+    <?php
+        if ($x == 25 || $y == 50) {
+            echo "Ahinsa";
+        }
+    ?>
+
+    <h4>! (Not)</h4>
+    <?php
+        if ($x !== 50) {
+            echo "Ahinsa";
+        }
     ?>
 
 <script src="js/jquery-3.4.1.min.js"></script>
