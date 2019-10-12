@@ -7,33 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
-    <title>PHP Switch Statement</title>
+    <title>Activity 02</title>
 </head>
 <body>
 
     <?php
 
-        $mobile_brand = "Sony";
+        $num = 1;
 
-        switch ($mobile_brand) {
-            case "Sony":
-                echo "Your mobile brand is Sony";
+        switch ($num) {
+            case 1:
+                echo "You entered number is 1";
                 break;
-            case "Samsung":
-                echo "Your mobile brand is Samsung";
+            case 2:
+                echo "You entered number is 2";
                 break;
-            case "Huawei":
-                echo "Your mobile brand is Huawie";
-                break;
-            case "LG":
-                echo "Your mobile brand is LG";
+            case 3:
+                echo "You entered number is 3";
                 break;
             default:
-                echo "Your mobile brand is not in here";
+                echo "You entered something else";
+
         }
 
     ?>
-
 
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
