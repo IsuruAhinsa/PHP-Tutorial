@@ -11,7 +11,25 @@
 </head>
 <body>
 
+    <h4>Ternary ?:</h4>
+    <?php
+        $x = 23;
+        echo $x = $x==23 ? "Polonnaruwa" : "Moratuwa";
 
+        /*if (empty($x)) {
+            echo "Polonnaruwa";
+        } else {
+            echo "Moratuwa";
+        }*/
+    ?>
+
+    <h4>Null Coalescing ??</h4>
+    <?php
+        $y = "Ahinsa";
+        // if $y is exists, and is not null -> returns $y's value (exp1)
+        // if $y is not exists, and is null -> returns exp2
+        echo $y = $y ?? "Chamma";
+    ?>
 
 
 <script src="js/jquery-3.4.1.min.js"></script>
