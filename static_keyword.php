@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
-    <title>PHP Global Keyword</title>
+    <title>PHP Static Keyword</title>
 </head>
 <body>
 
