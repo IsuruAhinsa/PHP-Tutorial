@@ -13,16 +13,17 @@
 
     <?php
 
-        $x = 1;
-        $y = 3;
-
-        function xyz() {
-            $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+        function myFunc() {
+            static $a = 0; // local
+            echo $a;
+            $a++;
         }
 
-        xyz();
-
-        echo $z;
+        myFunc();
+        echo "<br>";
+        myFunc();
+        echo "<br>";
+        myFunc();
 
     ?>
 
